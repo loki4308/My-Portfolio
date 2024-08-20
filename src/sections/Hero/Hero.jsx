@@ -50,7 +50,7 @@ function Hero() {
         <p className={styles.description}>
         Committed to turning concepts into powerful software solutions.
         </p>
-        <a href="#" download>
+        <a href={CV} download>
           <button className="hover">Resume </button>
         </a>
       </div>
