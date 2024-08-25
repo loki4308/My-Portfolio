@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import stdPro from '../../assets/stdProject .png';
 import chatApp from '../../assets/chatProject.png';
-import shopSite from '../../assets/shoopingPro.png';
+import weatherApp from '../../assets/weather.png';
 import ProjectCard from '../../common/ProjectCard';
+
 
 function Projects() {
   return (
@@ -17,14 +18,14 @@ function Projects() {
         />
         <ProjectCard
           src={chatApp}
-          link="https://github.com/loki4308/Student-Identification-System.git2"
+          link="https://github.com/loki4308/Student-Identification-System.git"
           h3="Chatting Box"
           
         />
         <ProjectCard
-          src={shopSite}
-          link="https://github.com/loki4308/Student-Identification-System.git"
-          h3="Shooping Site"
+          src={weatherApp}
+          link="https://github.com/loki4308/Weather-Application.git"
+          h3="Weather Application"
           
         />
         
