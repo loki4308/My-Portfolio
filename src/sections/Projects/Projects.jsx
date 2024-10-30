@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={chatApp}
-          link="https://github.com/loki4308/Student-Identification-System.git"
+          link="https://github.com/loki4308/Chat-Application.git"
           h3="Chatting Box"
           
         />
